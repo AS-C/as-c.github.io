@@ -1,0 +1,160 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family: asap, sans-serif;
+
+}
+
+#navpage {
+    float: left;
+}
+
+#navpage #navlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: asap, sans-serif;
+}
+
+#navpage #navlink:hover {
+    background-color: #111;
+	font-family: comfortaa, sans-serif;
+	font-family: asap, sans-serif;
+}
+.active {
+    background-color: #008080;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	float: left;
+	padding-left: 20px;
+	padding-left: 20px;
+}
+#img1 {
+	width: 200px;
+	height: auto;
+	margin: auto;
+	float: left;
+	padding-left: 20px;
+	padding-left: 20px;
+}
+h1 {
+	color: white;
+	text-align: center;
+	background-color: #333;
+	font-family: comfortaa, sans-serif;
+	}
+ins {
+	color: white;
+	text-align: center;
+	background-color: #333;
+	font-family: comfortaa, sans-serif;
+	}
+table, th, td {
+	border: 4px solid black;
+	font-family: comfortaa, sans-serif;
+	padding: 10px
+}
+#panel {
+color: #777;
+background-color:white;
+text-align:center;
+padding:6px 8px;
+text-align: justify;
+font-family: comfortaa, sans-serif;
+}
+ #pback {
+    line-height: 330px;
+ }
+ 
+ #pp {
+	 margin-left: 20px;
+ }
+
+.bgimg-1, .bgimg-2{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+	background-image: url("images/picture1.png");
+	min-height: 50%
+}
+.bgimg-2 {
+	background-image: url("images/picture2.jpg");
+	min-height: 50%
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: asap, sans-serif;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+#panel1 {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: solid, black, 1px;
+	font-family: comfortaa, sans-serif;
+}
+#titlebar{
+	font-family: atomic-age, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: white;
+}
+#info{
+	font-family: asap, sans-serif;
+}
+#socialmedia{
+	font-family: asap, sans-serif;
+	list-style-type: none;
+	color: #DE3831;
+}
+
+a:hover {
+    color: #008080;
+}
