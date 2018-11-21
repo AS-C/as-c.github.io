@@ -7,33 +7,36 @@
 
 #navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 2;
+    padding: 2;
     background-color: #333;
+	overflow: hidden;    
+	text-align: center;
 	font-family: asap, sans-serif;
 
 }
 
 #navpage {
-    float: left;
-    display: in-line;
+	text-align: center;
+	padding: 2px;
+	margin: 2px;
+	display: inline;
 }
 
 #navpage #navlink {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 	font-family: asap, sans-serif;
-	display: in-line;
 }
 
 #navpage #navlink:hover {
     background-color: #111;
 	font-family: comfortaa, sans-serif;
 	font-family: asap, sans-serif;
+	display: inline;
 }
 .active {
     background-color: #008080;
