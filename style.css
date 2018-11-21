@@ -17,6 +17,7 @@
 
 #navpage {
     float: left;
+    display: in-line;
 }
 
 #navpage #navlink {
@@ -26,6 +27,7 @@
     padding: 14px 16px;
     text-decoration: none;
 	font-family: asap, sans-serif;
+	display: in-line;
 }
 
 #navpage #navlink:hover {
