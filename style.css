@@ -206,3 +206,12 @@ a:hover {
 	color: #ffffff;
 	
 }
+
+.container {
+	
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	
+	
+}
