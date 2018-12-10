@@ -13,6 +13,7 @@ footer {
 
 .page-wrapper {
   min-height:100vh;
+  text-align:center;
  }
 
 #img1{
@@ -190,7 +191,6 @@ a:hover {
   transition: all 0.5s;
   cursor: pointer;
   margin-top: 5px;
-  margin-left: 85px;
   display: inline-block;
 }
 
@@ -220,14 +220,14 @@ a:hover {
 }
 
 #item{
-	margin-top: 5px;
-	margin-left: 10px;
 	border: solid black 1px;
 	width: 285px;
 	height: 150px;
 	padding: 10px;
 	float: left;
-	transform: translate(50%, 50%);
+	display: inline-block;
+	margin: 0 30px;
+	margin-top: 10px
 }
 
 .modal, .modal1 {
@@ -256,7 +256,7 @@ a:hover {
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
 }
 
 /* Add Animation */
