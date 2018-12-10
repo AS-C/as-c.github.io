@@ -20,7 +20,14 @@ footer {
 	height: auto;
 	width: 9.5%;
 	margin-right: 5px;
-	margin-left: -10px;
+	margin-left: 10px;
+}
+
+#img3{
+	height: auto;
+	width: 15%;
+	margin-right: 5px;
+	margin-left: 10px;
 }
 
 #img2{
