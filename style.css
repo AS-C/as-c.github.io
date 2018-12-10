@@ -5,10 +5,31 @@
 	box-sizing: border-box;
 }
 footer {
-   position: fixed;
+   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
+}
+
+.page-wrapper {
+  min-height:100vh;
+ }
+
+#img1{
+	height: auto;
+	width: 9.5%;
+	margin-right: 5px;
+	margin-left: -10px;
+}
+
+#img2{
+	width: 275px;
+	height: auto;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-left: -10px;
+	float: left;
+	padding-left: 0px;
 }
 
 #navbar {
@@ -49,20 +70,12 @@ footer {
 }
 
 img {
-	width: 300px;
+	width: 275px;
 	height: auto;
-	margin: auto;
+	margin-right: 10px;
+	margin-top: 2px;
 	float: left;
-	padding-left: 20px;
-	padding-left: 20px;
-}
-#img1 {
-	width: 200px;
-	height: auto;
-	margin: auto;
-	float: left;
-	padding-left: 20px;
-	padding-left: 20px;
+	padding-left: 0px;
 }
 h1 {
 	color: white;
@@ -70,12 +83,7 @@ h1 {
 	background-color: #333;
 	font-family: comfortaa, sans-serif;
 	}
-ins {
-	color: white;
-	text-align: center;
-	background-color: #333;
-	font-family: comfortaa, sans-serif;
-	}
+
 table, th, td {
 	border: 4px solid black;
 	font-family: comfortaa, sans-serif;
@@ -181,7 +189,9 @@ a:hover {
   height: 40px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin-top: 5px;
+  margin-left: 85px;
+  display: inline-block;
 }
 
 .myBtn span {
@@ -210,12 +220,14 @@ a:hover {
 }
 
 #item{
-	margin: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
 	border: solid black 1px;
-	width: 300px;
+	width: 285px;
 	height: 150px;
 	padding: 10px;
-	float: left
+	float: left;
+	transform: translate(50%, 50%);
 }
 
 .modal, .modal1 {
@@ -284,4 +296,11 @@ a:hover {
     padding: 2px 16px;
     background-color: #008080;
     color: white;
+}
+
+.itemType{
+	font-size: 64px;
+}
+.itemUnderline{
+	color: white;
 }
