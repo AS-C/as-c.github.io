@@ -24,7 +24,7 @@ footer {
 }
 
 #prodpic{
-	padding-bottom: 10px
+	padding-bottom: 10px;
 	width: 25%;
 	margin-right: 5px;
 	margin-left: 10px;
@@ -188,6 +188,20 @@ body, html {
 	list-style-type: none;
 	color: #DE3831;
 }
+#btntxtlnk{
+	color: white;
+	text-decoration: none;
+}
+#btntxtlnk:hover{
+	color: white;
+	text-decoration: none;
+}
+#btntxtlnk:visited{
+	color: white;
+	text-decoration: none;
+}
+
+
 a{
 	color: #008080;
 }
@@ -199,7 +213,7 @@ a:visited {
 	color: #008080;
 }
 
-.myBtn {
+.myBtn, .myBtn2 {
   border-radius: 4px;
   background-color: #008080;
   border: none;
@@ -214,14 +228,14 @@ a:visited {
   display: inline-block;
 }
 
-.myBtn span {
+.myBtn span, .myBtn2 span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.myBtn span:after {
+.myBtn span:after, .myBtn2 span:after{
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -230,11 +244,11 @@ a:visited {
   transition: 0.5s;
 }
 
-.myBtn:hover span {
+.myBtn:hover span, .myBtn2:hover span {
   padding-right: 25px;
 }
 
-.myBtn:hover span:after {
+.myBtn:hover span:after, .myBtn2:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -323,41 +337,4 @@ a:visited {
 }
 .itemUnderline{
 	color: white;
-}
-#formbody {
-  margin: 2em;
-}
-aside {
-    background: #008080;
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 2em;
-}
-textarea {
-  width: 100%;
-}
-.content-head {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 2em 0 1em;
-}
-.is-center {
-  text-align: center;
-}
-.button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
-}
-.button-xlarge {
-  font-size: 125%;
-}
-button {
-  float: right;
-}
-#name, #email {
-  width: 50%;
 }
