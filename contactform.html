@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="shortcut icon" href="images/icon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.edgefonts.net/atomic-age;asap.js"></script>
+<title>ASC | About</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+<h1 id="titlebar">Alex Sandham Creative</h1>
+<ul id="navbar">
+  <li id="navpage"><a id="navlink" href="index.html">Home</a></li>
+  <li id="navpage"><a id="navlink" class="active" href="#About">About</a></li>
+  <li id="navpage"><a id="navlink" href="store.html">Store</a></li>
+  <li id="navpage"><a id="navlink" href="#Contact">Contact Us</a></li>
+</ul>
+<form id="contactform" action="https://formspree.io/alexsandhamcreative@photographer.net" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+</form>
+
+</div>
+<footer>
+<br><br>
+<hr>
+<p style="float: left;">&copy Alex Sandham Creative 2018</p><p style="float: right;">Contact Us: AlexSandhamCreative@photographer.net</p>
+</footer>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', 'https://formspree.io/' + 'alexsandhamcreative' + '@' + 'photographer' + '.' + 'net');
+</script>
