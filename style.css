@@ -27,7 +27,7 @@ footer {
 	padding-bottom: 10px;
 	width: 15%;
 	margin-right: 5px;
-	margin-left: 10px;
+	margin-left: 7px;
 }
 
 #img3{
@@ -99,11 +99,6 @@ h1 {
 	font-family: comfortaa, sans-serif;
 	}
 
-table, th, td {
-	border: 4px solid black;
-	font-family: comfortaa, sans-serif;
-	padding: 10px
-}
 #panel {
 color: #777;
 background-color:white;
